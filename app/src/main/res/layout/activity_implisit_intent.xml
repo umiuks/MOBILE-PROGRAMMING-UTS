@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="300dp"
+               android:id="@+id/iv"
+               android:src="@android:drawable/stat_notify_error"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCapture"
+            android:text="Capture"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"/>
+    <Button
+            android:text=" GOOGLE DRIVE "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:layout_below="@+id/btnpgl"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:id="@+id/btnbuka"
+            android:onClick="buka"/>
+</LinearLayout>
