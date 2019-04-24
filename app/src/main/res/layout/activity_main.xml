@@ -13,21 +13,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="INTENT IMPLISIT "
-            android:textColor="@android:color/holo_red_dark"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
             android:textSize="20dp"
             android:id="@+id/btnPindahActivityImplisit"/>
     <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=" INTENT EXPLISIT  "
-            android:textColor="@android:color/holo_red_dark"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
             android:textSize="20dp"
             android:id="@+id/btnPindahActivityExplisit"/>
     <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="INTENT BUNDLE"
-            android:textColor="@android:color/holo_red_dark"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
             android:textSize="20dp"
             android:id="@+id/btnPindahActivityIntentBundle"/>
 

@@ -13,14 +13,14 @@
             android:layout_height="wrap_content"
             android:id="@+id/btnCapture"
             android:text="Capture"
-            android:background="@color/colorAccent"
+            android:background="@color/colorPrimary"
             android:textColor="@android:color/white"
             android:textSize="20dp"/>
     <Button
             android:text=" GOOGLE DRIVE "
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorAccent"
+            android:background="@color/colorPrimary"
             android:textColor="@android:color/white"
             android:textSize="20dp"
             android:layout_below="@+id/btnpgl"
